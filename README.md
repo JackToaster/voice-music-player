@@ -1,5 +1,6 @@
 # voice-music-player
 A voice controlled music player using the Python SpeechRecognition library to perform voice recognition.  
+*Note: This is a very early stage of development, so there isn't actually any music playing functionality yet, but I'm working on it.*  
 This program could be easily adapted for any always-listening speech control application. The speech recognition algorithm works by using Google's cloud service to convert audio to text, then processing the text to see which command most closely matches.  
 The recognizer takes a 'call word', which is used before each command to avoid reacting to unintended commands.
 To modify the commands:  
