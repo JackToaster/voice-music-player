@@ -4,7 +4,7 @@ This program could be easily adapted for any always-listening speech control app
 The recognizer takes a 'call word', which is used before each command to avoid reacting to unintended commands.
 To modify the commands:  
 1. Write a function for each command that takes the spoken text as an input.
-2. Modify the 'commands' dictionary given to CommandRecognizer to have the keywords and function to call.
+2. Modify the 'commands' dictionary given to CommandRecognizer to have the keywords and function to call.  
 Example of always-listening voice command:
 ```
 CALL_WORD = 'call'
